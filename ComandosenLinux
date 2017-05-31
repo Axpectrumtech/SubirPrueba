@@ -1,0 +1,26 @@
+http://principiante-linux.blogspot.com.co/2007/08/comandos-linux-mover-copiar-borrar-y.html ---------> para mirar comandos en Linux
+
+geiner@xpectrumtech:/opt$ sudo chmod 777 android-studio-ide-162.3934792-linux.zip  --------> permisos para un solo archivo
+
+
+para mover o copiar un archivo tienes que hacer estos comandos
+
+geiner@xpectrumtech:~/Documents$ sudo cp nombre del Archivo /opt/
+geiner@xpectrumtech:~/Documents$ 
+
+PARA Comprimir Y Descomprimir un archivo 
+Archivos .tar.gz:
+Comprimir: tar -czvf empaquetado.tar.gz /carpeta/a/empaquetar/
+Descomprimir: tar -xzvf archivo.tar.gz
+
+Archivos .tar:
+Empaquetar: tar -cvf paquete.tar /dir/a/comprimir/
+Desempaquetar: tar -xvf paquete.tar
+
+Archivos .gz:
+Comprimir: gzip -9 index.php
+Descomprimir: gzip -d index.php.gz
+
+Archivos .zip:
+Comprimir: zip archivo.zip carpeta
+Descomprimir: unzip archivo.zip
